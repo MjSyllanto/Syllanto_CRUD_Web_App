@@ -1,0 +1,181 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    background: #3e5f3e;
+    color: white;
+}
+
+.header {
+    background: #4f7a4f;
+    text-align: center;
+    padding: 15px;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.container {
+    width: 90%;
+    margin: 30px auto;
+}
+
+.card {
+    background: #5f8a5f;
+    padding: 20px;
+    border-radius: 12px;
+}
+
+.stats {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.btn-add {
+    background: #2196f3;
+    border: none;
+    padding: 10px 15px;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+    .btn-add:hover {
+        background: #1976d2;
+    }
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+th, td {
+    padding: 12px;
+    text-align: center;
+}
+
+th {
+    background: #4f7a4f;
+}
+
+tr:nth-child(even) {
+    background: #6d9d6d;
+}
+
+.status {
+    padding: 6px 10px;
+    border-radius: 10px;
+    font-size: 13px;
+}
+
+.pending {
+    background: orange;
+}
+
+.confirmed {
+    background: #2ecc71;
+}
+
+.btn {
+    padding: 6px 10px;
+    border-radius: 6px;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.view {
+    background: #3498db;
+}
+
+.edit {
+    background: #1abc9c;
+}
+
+.delete {
+    background: #e74c3c;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+
+
+
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #2f4f2f;
+    color: white;
+}
+
+.header {
+    background-color: #3b6b3b;
+    padding: 15px;
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+
+
+.card-title {
+    background-color: #3b6b3b;
+    padding: 12px;
+    border-radius: 10px;
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+.form-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+    .form-group label {
+        width: 150px;
+        font-weight: bold;
+    }
+
+    .form-group input,
+    .form-group select {
+        flex: 1;
+        padding: 10px;
+        border-radius: 8px;
+        border: none;
+        background-color: #6b9b6b;
+        color: white;
+    }
+
+.button-group {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+
+.btn-create {
+    background-color: #1e90ff;
+    border: none;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.btn-cancel {
+    background-color: #cfc7be;
+    border: none;
+    color: #333;
+    padding: 12px 30px;
+    border-radius: 8px;
+    cursor: pointer;
+}
